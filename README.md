@@ -31,6 +31,6 @@
 ###### - Ejemplo para el algoritmo optimo:
 	./optimo.py workload.txt 50000
   
-
+  
 ###### - Generar la gráfica:
 	./plot.py

@@ -24,6 +24,7 @@ Optimal Page Replacement Algorithm Page Faults: 30
 time:
 406560.588837
 python optimo.py workload.txt 4000  406,06s user 0,42s system 99% cpu 6:46,57 total
+
 =================================================================================================
 3000
 Optimal Page Replacement Algorithm Page Faults: 30
