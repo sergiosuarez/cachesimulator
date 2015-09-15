@@ -34,3 +34,10 @@
   
 ###### - Generar la gráfica:
 	./plot.py
+
+###### - Para compilar:
+	python2 -O -m py_compile cacheSim.py
+
+###### - Para ejecutar el compilado:
+	chmod +x cachesim.pyo
+	time python2 cacheSim.pyo workload.txt lru 50000

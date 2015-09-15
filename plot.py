@@ -1,6 +1,8 @@
 #! /usr/bin/python2.7
 # encoding=utf-8
-
+#
+# Authored by Juan Mite
+#
 from pylab import *
 print('Generando gráfica..')
 f = open('log.txt', 'r')

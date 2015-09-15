@@ -100,9 +100,12 @@ def Compare(page_in_list,pages,counter):
         if (i == len_of_remaining_page):
             return i
 
-
+#
+#  Authored by Juan Mite
+#  LRU algorithm
+#
 if policy.upper() == 'LRU':
-    print 'Evaluando una caché LRU con '+ str(cache_tam) +' entradas...'
+    print 'Evaluando una caché LRU con '+ str(cache_tam) +' entradas, tiempo estimado 25 segundos...'
     with open(workload_file) as f:
         for line in f:
             if (cache.__contains__(line)):
@@ -121,6 +124,8 @@ if policy.upper() == 'LRU':
     print "Miss rate: ", '              '+str(round((float(misses)/(references)),3))+'% ('+str(misses)+' misses out of '+str(references)+' references)'
     print 'Miss rate (warm cache): ', ' '+str(round((float(misses)/(references-cache_tam)),3))+'% ('+str(hites)+' misses out of '+ str(references-cache_tam)+' references)'
     print 'Efficiency: '+str(round(float(hites)/(references),3))
+    print 'Hits: '+str(hites)
+    print 'Misses: '+str(misses)
     with open("log.txt", "a") as myfile:
         myfile.write(str(cache_tam)+','+str(misses)+',LRU\n')
 
