@@ -1,0 +1,44 @@
+Evaluando una caché CLOCK con 50000 entradas...
+Resultados: 
+Miss rate:                0.475% (50000 misses out of 105156 references)
+Miss rate (warm cache):   0.907% (55156 misses out of 55156 references)
+Efficiency: 0.525
+python cacheSim.py workload.txt CLOCK 50000  289,39s user 0,21s system 100% cpu 4:49,54 total
+=================================================================================================
+Evaluando una caché CLOCK con 5000 entradas...
+Resultados: 
+Miss rate:                0.628% (5000 misses out of 7957 references)
+Miss rate (warm cache):   1.691% (2957 misses out of 2957 references)
+Efficiency: 0.372
+python cacheSim.py workload.txt CLOCK 5000  2,42s user 0,04s system 100% cpu 2,461 total
+=================================================================================================
+Evaluando una caché CLOCK con 1000 entradas...
+Resultados: 
+Miss rate:                0.745% (1000 misses out of 1342 references)
+Miss rate (warm cache):   2.924% (342 misses out of 342 references)
+Efficiency: 0.255
+python cacheSim.py workload.txt CLOCK 1000  0,75s user 0,05s system 99% cpu 0,805 total
+
+===========================================================================================
+Evaluando una caché CLOCK con 3000 entradas...
+Resultados: 
+Miss rate:                0.659% (3000 misses out of 4555 references)
+Miss rate (warm cache):   1.929% (1555 misses out of 1555 references)
+Efficiency: 0.341
+python cacheSim.py workload.txt CLOCK 3000  1,25s user 0,06s system 99% cpu 1,326 total
+
+============================================================================================
+Evaluando una caché CLOCK con 4000 entradas...
+Resultados: 
+Miss rate:                0.642% (4000 misses out of 6227 references)
+Miss rate (warm cache):   1.796% (2227 misses out of 2227 references)
+Efficiency: 0.358
+python cacheSim.py workload.txt CLOCK 4000  1,63s user 0,07s system 99% cpu 1,703 total
+
+===============================================================================================
+Evaluando una caché CLOCK con 8000 entradas...
+Resultados: 
+Miss rate:                0.597% (8000 misses out of 13400 references)
+Miss rate (warm cache):   1.481% (5400 misses out of 5400 references)
+Efficiency: 0.403
+python cacheSim.py workload.txt CLOCK 8000  5,53s user 0,08s system 99% cpu 5,615 total

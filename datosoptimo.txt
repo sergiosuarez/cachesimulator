@@ -31,7 +31,11 @@ time:
 321529.999971
 python optimo.py workload.txt 3000  321,56s user 0,19s system 100% cpu 5:21,55 total
 =================================================================================================
-
+1000
+Optimal Page Replacement Algorithm Page Faults: 30
+time:
+369066.658974
+python optimo.py workload.txt 1000  368,52s user 0,22s system 99% cpu 6:09,08 total
 
 
 
