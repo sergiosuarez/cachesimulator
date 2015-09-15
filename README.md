@@ -5,24 +5,27 @@
 ###### - Descargar el repositorio:
 	git clone https://github.com/sergiosuarez/cachesimulator
 
-###### - Instalar dependencias:
+###### - Instalación:
 	cd cachesimulator
 	sudo python setup.py
 	chmod +x cacheSim.py
 
+###### - Dependencias:	
+	python-numpy
+	python-scipy
+	python-matplotlib
+	
 ###### - Uso:
-  ./cacheSim.py <archivo-con-cadena-de-referencia> <política de desalojo> <tamaño-de-caché>
+	./cacheSim.py <archivo-con-cadena-de-referencia> <política de desalojo> <tamaño-de-caché>
 
 ###### - Políticas de desalojo disponibles:
-  - LRU
-  - FIFO
-  - ÓPTIMO
-  - CLOCK
+	- LRU
+	- FIFO
+	- ÓPTIMO
+	- CLOCK
 
 ###### - Ejemplo:
-  ./cacheSim.py workload.txt LRU 50000
+	./cacheSim.py workload.txt LRU 50000
   
 ###### - Generar la gráfica:
-  ./plot.py
-  
-  
+	./plot.py
