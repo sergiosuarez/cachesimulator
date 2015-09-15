@@ -14,10 +14,10 @@
   ./cacheSim.py <archivo-con-cadena-de-referencia> <política de desalojo> <tamaño-de-caché>
 
 ###### - Políticas de desalojo disponibles:
-  LRU
-  FIFO
-  ÓPTIMO
-  CLOCK
+  - LRU
+  - FIFO
+  - ÓPTIMO
+  - CLOCK
 
 ###### - Ejemplo:
   ./cacheSim.py workload.txt LRU 50000
